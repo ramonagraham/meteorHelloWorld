@@ -6,9 +6,18 @@
   <h1>Welcome to Meteor!</h1>
 
   {{> hello}}
+  {{> helloDescending}}
 </body>
 
 <template name="hello">
   <button>Click Me</button>
   <p>You've pressed the button {{counter}} times.</p>
+  
+</template>
+
+
+<template name="helloDescending">
+    
+  <button>Click Me, Descending Counter</button>
+  <p>You've pressed the button {{counterDescending}} times.</p>
 </template>

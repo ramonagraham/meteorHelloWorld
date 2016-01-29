@@ -1,7 +1,30 @@
 /* CSS declarations go here */
+h1 {
+	color: yellow;
+	border: black;
+	border-style: groove;
+	border-width: 5px;
+}
+
+
 body {
     background: red;
-    padding: 50px;
+    padding: 75px;
     font-size: 24px;
     
+}
+
+p {
+	border-style: none none double none;
+}
+
+button {
+	background-color: purple;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
 }
